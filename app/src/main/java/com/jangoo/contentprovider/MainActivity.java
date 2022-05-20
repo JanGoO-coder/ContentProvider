@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
     EditText e1, e2;
     ContentValues values = new ContentValues();
 
