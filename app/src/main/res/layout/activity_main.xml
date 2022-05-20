@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="25dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Content Provider Demo"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:gravity="center|center_vertical"
+        android:layout_marginBottom="50dp"/>
+    <EditText
+        android:id="@+id/eName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Name..."
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/eCity"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="City..."
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="20dp"
+        android:text="Save Record"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:onClick="doSaveNow"
+        android:padding="5dp"
+        />
+    <Button
+        android:id="@+id/reg"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="20dp"
+        android:text="Show Record"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:onClick="doLoadNow"
+        android:padding="5dp"
+        />
+</LinearLayout>
