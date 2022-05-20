@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         e1 = (EditText) findViewById(R.id.eName);
         e2 = (EditText) findViewById(R.id.eCity);
     }
+
     public void doSaveNow(View view) {
         values.put("e_name", e1.getText().toString());
         values.put("e_city", e2.getText().toString());
