@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 values);
         Toast.makeText(this, uri.toString(), Toast.LENGTH_LONG).show();
     }
-
     public void doLoadNow(View view) {
         StringBuilder SB;
         try (Cursor cr = getContentResolver().query(DetailProvider.CONTENT_URI, null, null, null, "id")) {
